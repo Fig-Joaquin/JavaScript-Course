@@ -26,3 +26,24 @@ const arrayCarrito = carrito.map(function (producto)
 } );
 
 console.log(arrayCarrito)
+
+
+
+const productoMonitor = {
+    nombre: "monitor gamer",
+    precio: 400
+}
+
+const productoMouse = {
+    nombre: "Mouse Logitech",
+    precio: 600
+}
+
+
+//* Destructuring
+
+const {nombreMonitor, precio} = productoMonitor;
+console.log(nombreMonitor);
+
+const {nombreMouse} = productoMouse;
+console.log(nombreMouse);

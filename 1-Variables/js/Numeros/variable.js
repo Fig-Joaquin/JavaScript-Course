@@ -1,16 +1,16 @@
 const hola = "hola desde la consola" 
-hola
+
 
 // no se especifica el tipo de variable. Se puede crear sin especificacion
-var edad
-var año
+let edad
+let año
 
 // tenemos var, let y const
 let nombre = 'joaquin',
     apellido = 'sanchez';
 
 // iniciar multiples variables
-variable = 20
+let variable = 20
 año = 22
 
 // mostrar en pantalla
@@ -25,7 +25,7 @@ const constante = 3;
 // Creando STRING
 let cadena = 'Cadena uno'
 const cadena2 = String('Cadena dos')
-var cadena3 = new String('Cadena tres') // objeto tipo string
+let cadena3 = 'Cadena tres' // objeto tipo string
 console.log(cadena)
 console.log(cadena2.length) // largo de la cadena 2
 console.log(cadena3)
